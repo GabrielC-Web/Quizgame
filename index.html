@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizGame</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="title">
+        <h1>QuizGame de Gabriel</h1>
+    </div>
+    <div id="container">
+        <div class="start-game" id="initial-part">
+            <button class="start" id="start-btn">Jugar</button>
+        </div>
+        <div class="quiz-container hide" id="gaming-part">
+            <div class="counter-part" id="counterBox">
+                <div class="points" id="counterR"></div>
+                <div class="points" id="counterW"></div>
+            </div>
+            <div class="question-box" id="question-box">
+                <div class="question" id="question">¿Qué disuelve mejor, el agua fría o caliente?</div>
+                <div class="answer-box" id="answerBtn-part">
+                    <button class="answer 1" id="answer 1">El agua fría, daa</button>
+                    <button class="answer 2" id="answer 2">Es obvio que el agua caliente</button>
+                    <button class="answer 3" id="answer 3">Ninguna, da igual</button>
+                    <button class="answer 4" id="answer 4">El agua no disuelve cosas</button>
+                </div>
+            </div>
+            <div class="game-control">
+                <button class="control-button next " id="next-btn">Siguiente</button>
+                <button class="control-button restart hide" id="restart-btn">Restart</button>
+            </div>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>

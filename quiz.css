@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    outline: rebeccapurple;
+}
+
+body {
+    background: #00a98f;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.title {
+    text-align: center;
+    margin: 0px auto;
+    padding-top: 50px;
+}
+
+.quiz-container {
+    margin: 0px auto;
+    width: 60%;
+    display: grid;
+    border-radius: 10px;
+}
+
+
+.answer-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.question {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#container {
+    margin-top: 80px;
+}
+
+.game-control {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+.control-button {
+    padding: 10px;
+    border-radius: 10px;
+    background: #0099e5;
+}
+
+.answer {
+    padding: 20px;
+    border-radius: 10px;
+    background: #b165ca;
+}
+
+.question-box {
+    border-radius: 10px;
+    padding: 15px;
+    background: white;
+}
+
+.start-game {
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    background: #0099e5;
+    border-radius: 10px;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.start {
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.correct {
+    background: #34bf49;
+}
+
+.wrong {
+    background: #ff4c4c;
+}
+
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: grid;
+}
+
+.counter-part {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background: white;
+    padding: 15px;
+    width: 70%;
+    text-align: center;
+    border-radius: 10px;
+}
+.points {
+    font-size: 40px;
+}
+
+.animate {
+    visibility: hidden;
+}
+
+.restart {
+    height: 100px;
+}
